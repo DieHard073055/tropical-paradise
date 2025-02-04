@@ -1,15 +1,87 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/tropical-paradise/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-    <script type="module" crossorigin src="/tropical-paradise/assets/index-d5a46dad.js"></script>
-    <link rel="stylesheet" href="/tropical-paradise/assets/index-7b268cc8.css">
-  </head>
-  <body>
-    <div id="root"></div>
-    
-  </body>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Tropical Treasures</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            rel="stylesheet"
+        />
+    </head>
+    <body class="bg-[#FDE74C] font-sans">
+        <header class="bg-[#9BC53D] p-4 text-center">
+            <h1 class="text-4xl font-bold text-[#404E4D]">
+                Tropical Treasures
+            </h1>
+            <nav class="flex justify-center mt-2">
+                <a
+                    href="index.html"
+                    class="mx-4 text-[#404E4D] hover:text-[#C3423F]"
+                    >Home</a
+                >
+                <a
+                    href="souvenirs.html"
+                    class="mx-4 text-[#404E4D] hover:text-[#C3423F]"
+                    >Souvenirs</a
+                >
+                <a
+                    href="about.html"
+                    class="mx-4 text-[#404E4D] hover:text-[#C3423F]"
+                    >About</a
+                >
+            </nav>
+        </header>
+
+        <div
+            class="bg-cover bg-center h-64"
+            style="
+                background-image: url(&quot;https://placehold.co/1200x400&quot;);
+            "
+        >
+            <div
+                class="flex items-center justify-center h-full bg-black bg-opacity-50"
+            >
+                <h2 class="text-3xl text-white font-bold">
+                    Eco-Friendly Crafts & Maldives Guesthouse
+                </h2>
+            </div>
+        </div>
+
+        <main class="p-5 text-center">
+            <h2 class="text-2xl font-semibold mt-5">
+                Welcome to Tropical Treasures
+            </h2>
+            <p class="mt-2">
+                Explore unique handcrafted coconut-shell souvenirs and
+                experience the beauty of the Maldives.
+            </p>
+            <a
+                href="souvenirs.html"
+                class="mt-4 inline-block bg-[#9BC53D] text-white py-2 px-4 rounded hover:bg-[#C3423F]"
+                >View Souvenirs</a
+            >
+            <div class="mt-10">
+                <h2 class="text-xl font-semibold">Contact Us</h2>
+                <div class="flex justify-center mt-4">
+                    <a
+                        href="https://wa.me/yourwhatsappnumber"
+                        class="mx-2 bg-[#404E4D] text-white py-2 px-4 rounded hover:bg-[#C3423F]"
+                        >WhatsApp</a
+                    >
+                    <a
+                        href="https://viber.com/yourvibernumber"
+                        class="mx-2 bg-[#404E4D] text-white py-2 px-4 rounded hover:bg-[#C3423F]"
+                        >Viber</a
+                    >
+                </div>
+            </div>
+        </main>
+
+        <footer class="bg-[#9BC53D] py-4 text-center">
+            <p class="text-[#404E4D]">
+                &copy; 2025 Tropical Treasures. All Rights Reserved.
+            </p>
+        </footer>
+    </body>
 </html>
