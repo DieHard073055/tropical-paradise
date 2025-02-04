@@ -10,7 +10,7 @@ const Home = () => (
       beauty of the Maldives.
     </p>
     <a
-      href="/souvenirs"
+      href="/tropical-paradise/souvenirs"
       className="mt-4 inline-block bg-green text-white py-2 px-4 rounded hover:bg-coral-red"
     >
       View Souvenirs
