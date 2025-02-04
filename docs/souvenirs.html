@@ -5,67 +5,59 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Souvenirs - Tropical Treasures</title>
         <link
-            href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
             rel="stylesheet"
         />
     </head>
-    <body class="bg-[#FDE74C] font-sans">
-        <header class="bg-[#9BC53D] p-4 text-center">
-            <h1 class="text-4xl font-bold text-[#404E4D]">
-                Tropical Treasures
-            </h1>
-            <nav class="flex justify-center mt-2">
-                <a
-                    href="index.html"
-                    class="mx-4 text-[#404E4D] hover:text-[#C3423F]"
-                    >Home</a
-                >
-                <a
-                    href="souvenirs.html"
-                    class="mx-4 text-[#404E4D] hover:text-[#C3423F]"
-                    >Souvenirs</a
-                >
-                <a
-                    href="about.html"
-                    class="mx-4 text-[#404E4D] hover:text-[#C3423F]"
-                    >About</a
-                >
+    <body class="bg-white">
+        <header class="bg-success text-center p-4">
+            <h1 class="text-white">Tropical Treasures</h1>
+            <nav>
+                <a class="text-white mx-2" href="index.html">Home</a>
+                <a class="text-white mx-2" href="souvenirs.html">Souvenirs</a>
+                <a class="text-white mx-2" href="about.html">About</a>
             </nav>
         </header>
 
-        <main class="p-5 text-center">
-            <h2 class="text-2xl font-semibold">
-                Handcrafted Coconut-Shell Souvenirs
-            </h2>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 mt-5">
-                <div class="bg-white border p-4 rounded shadow">
-                    <div
-                        class="bg-gray-200 h-32 flex items-center justify-center"
-                    >
-                        Insert Crafts Photo Here
+        <main class="text-center p-4">
+            <h2>Handcrafted Coconut-Shell Souvenirs</h2>
+            <div class="container mt-4">
+                <div class="row">
+                    <div class="col-sm-4 mb-4">
+                        <div class="card">
+                            <div class="bg-light" style="height: 150px">
+                                Insert Crafts Photo Here
+                            </div>
+                            <div class="card-body">
+                                <h3>Souvenir 1</h3>
+                                <p>
+                                    Crafted with locally sourced coconut shells.
+                                </p>
+                                <a
+                                    class="btn btn-primary"
+                                    href="https://wa.me/+9607756456"
+                                    >Contact via WhatsApp</a
+                                >
+                            </div>
+                        </div>
                     </div>
-                    <h3 class="text-xl font-semibold mt-2">Souvenir 1</h3>
-                    <p class="mt-1">
-                        Crafted with locally sourced coconut shells.
-                    </p>
-                    <a
-                        href="https://wa.me/yourwhatsappnumber"
-                        class="mt-2 inline-block bg-[#9BC53D] text-white py-2 px-4 rounded hover:bg-[#C3423F]"
-                        >Contact via WhatsApp</a
-                    >
+                    <!-- Repeat the above block for more souvenirs -->
                 </div>
-                <!-- Repeat the above block for more souvenirs -->
             </div>
-            <p class="mt-5">
+            <p>
                 Crafted with locally sourced coconut shells and natural fibers
                 to reduce environmental impact.
             </p>
         </main>
 
-        <footer class="bg-[#9BC53D] py-4 text-center">
-            <p class="text-[#404E4D]">
+        <footer class="bg-success text-center p-4">
+            <p class="text-white">
                 &copy; 2025 Tropical Treasures. All Rights Reserved.
             </p>
         </footer>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </body>
 </html>
